@@ -30,7 +30,7 @@ coffee-shop-website
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/Kumar22Ankit/PreProdSync-test
    ```
 2. Navigate to the project directory:
    ```
