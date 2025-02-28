@@ -17,10 +17,10 @@ jobs:
         run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
       - name: Build Docker Image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/coffee-shop:latest .
+        run: docker build -t ankit22kumar/coffee-shop:latest .
 
       - name: Push Docker Image to Docker Hub
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/coffee-shop:latest
+        run: docker push ankit22kumar/coffee-shop:latest
 
       - name: Verify Image on Docker Hub
         run: docker pull ${{ secrets.DOCKER_USERNAME }}/coffee-shop:latest  
