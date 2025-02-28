@@ -1,0 +1,22 @@
+{
+  "name": "coffee-shop-website",
+  "version": "1.0.0",
+  "description": "A responsive and engaging website for a coffee shop.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "echo 'Build step not defined'"
+  },
+  "keywords": [
+    "coffee",
+    "shop",
+    "website",
+    "responsive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
