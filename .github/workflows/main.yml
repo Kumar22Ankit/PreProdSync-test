@@ -22,5 +22,4 @@ jobs:
       - name: Push Docker Image to Docker Hub
         run: docker push ankit22kumar/coffee-shop:latest
 
-      - name: Verify Image on Docker Hub
-        run: docker pull ${{ secrets.DOCKER_USERNAME }}/coffee-shop:latest  
+     
